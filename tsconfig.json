@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true,
+    "baseUrl": "node_modules",
+    "types": [
+      "@types/testing-library__cypress",
+      "cypress-commands",
+      "cypress-wait-until",
+      "cypress"
+    ]
+  },
+  "include": ["**/*.*"]
+}
